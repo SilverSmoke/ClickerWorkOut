@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="238.0" prefWidth="236.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="set" layoutX="39.0" layoutY="100.0" mnemonicParsing="false" onAction="#set" prefHeight="43.5" prefWidth="159.0" text="Set" />
+        <!--Button fx:id="close" layoutX="39.0" layoutY="167.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="43.5" prefWidth="159.0" text="Close" /-->
+        <TextField fx:id="time" alignment="CENTER_RIGHT" layoutX="87.0" layoutY="41.0" prefHeight="25.0" prefWidth="55.0" text="0" />
+        <CheckBox fx:id="shootdown" layoutX="69.0" layoutY="73.0" mnemonicParsing="false" text="Shootdown" />
+    </children>
+</AnchorPane>
